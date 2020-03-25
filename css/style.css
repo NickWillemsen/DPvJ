@@ -27,7 +27,7 @@ ul{
   padding-left: 20px;
   padding-right: 20px;
   margin-top: 5px;
-  color: #c0c0c0;
+  color: #ffffff;
 }
 
 .dark{
@@ -55,7 +55,7 @@ header a{
 }
 
 header li{
-  float:left;
+  float: left;
   display:inline;
   padding: 0 20px 0 20px;
 }
@@ -132,13 +132,77 @@ header a:hover{
 
 /* Standpunten */
 
+.standpunten-grid{
+  width: 100%;
+  height: 90%;
+  background-color: #f4f4f4;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+
 .standpunten1{
-  height: 20%;
-  width: 15%;
-  text-align:center;
+  background-image: url("../img/defensie2.jpg");
+  background-size: 100% 100%;
+  height: 80%;
+  width: 90%;
   color:#ffffff;
-  padding-left: 50px;
-  padding-top: 50px;
+}
+
+.standpunten2{
+  background-image: url("../img/kerncentrales1.jpg");
+  background-size: 100% 100%;
+  height: 80%;
+  width: 90%;
+  color:#ffffff;
+}
+.standpunten3{
+  background-image: url("../img/school1.jpg");
+  background-size: 100% 100%;
+  height: 80%;
+  width: 90%;
+  color:#ffffff;
+}
+
+.standpunten4{
+  background-image: url("../img/zorg1.jpg");
+  background-size: 100% 100%;
+  height: 80%;
+  width: 90%;
+  color:#ffffff;
+}
+.standpunten5{
+  background-image: url("../img/vuurwerk1.jpg");
+  background-size: 100% 100%;
+  height: 80%;
+  width: 90%;
+  color:#ffffff;
+}
+
+.standpunten6{
+  background-image: url("../img/navo1.jpg");
+  background-size: 100% 100%;
+  height: 80%;
+  width: 90%;
+  color:#ffffff;
+}
+
+.standpunt-onderwerp{
+  position: relative;
+  top: 70%;
+  left: 4%;
+  font-size: 2vw;
+  margin: 0px 0px;
+}
+
+.leesmeer{
+  position: relative;
+  top: 65%;
+  left: 4%;
+  font-size: 1vw;
+  margin: 0px 0px;
 }
 
 /* background_showcase */
@@ -180,8 +244,74 @@ aside#sidebar .Mail input, aside#sidebar .Mail textarea{
 /* main-col */
 
 article#main-col{
-  float: left;
-  width: 65%;
+  float: center;
+  margin-left: 250px;
+  margin-top: 70px;
+  margin-bottom: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 40%;
+  background: #ffffff;
+  color: #000000;
+}
+
+article#main-col1{
+  float: center;
+  margin-left: 0px;
+  margin-top: 70px;
+  margin-bottom: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 80%;
+  background: #ffffff;
+  color: #000000;
+}
+
+article#main-col2{
+  margin-left: 80px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  padding-top:30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 80%;
+  text-align: center;
+  background: #ffffff;
+  color: #000000;
+}
+
+.page-title {
+  font-size: 48px;
+}
+
+.page-title1 {
+  font-size: 48px;
+  text-align: center;
+}
+
+p1 {
+  font-size: 20px;
+}
+
+/* Contact-tekst */
+
+p2 {
+  font-size: 20px;
+  padding-top: 30px;
+  text-align: center;
+  display:block;
+}
+
+p3 {
+  font-size: 20px;
+  padding-top: 10px;
+  text-align: center;
+  display: block;
 }
 
 /* Contact */
@@ -194,13 +324,13 @@ ul#Contact li{
   background: #e6e6e6;
 }
 
+
 /* footer */
 
  .footer{
   background: #202020;
   color: #d3d3d3;
   height: 400px;
-  position: relative;
 }
 
  .footer-bottom {
@@ -210,11 +340,62 @@ ul#Contact li{
   width: 100%;
   text-align: center;
   position: absolute;
-  bottom: 0px;
+  margin-top: 110px;
   left: 0px;
   padding-top: 20px;
   border-top: #00c0ff 3px solid;
+}
 
+.footer-bottom1 {
+ background: #202020;
+ color: #686868;
+ height: 40px;
+ width: 100%;
+ text-align: center;
+ bottom: 0px;
+ left: 0px;
+ padding-top: 20px;
+ border-top: #00c0ff 3px solid;
+ bottom: 0px;
+}
+
+.footer-bottom2 {
+ background: #202020;
+ color: #686868;
+ height: 40px;
+ width: 100%;
+ text-align: center;
+ position: absolute;
+ margin-top: 215px;
+ left: 0px;
+ padding-top: 20px;
+ border-top: #00c0ff 3px solid;
+}
+
+.footer-bottom3 {
+ background: #202020;
+ color: #686868;
+ height: 40px;
+ width: 100%;
+ text-align: center;
+ position: absolute;
+ margin-top: 150px;
+ left: 0px;
+ padding-top: 20px;
+ border-top: #00c0ff 3px solid;
+}
+
+.footer-index {
+ background: #202020;
+ color: #686868;
+ height: 40px;
+ width: 100%;
+ text-align: center;
+ bottom: 0px;
+ left: 0px;
+ padding-top: 20px;
+ border-top: #00c0ff 3px solid;
+position: absolute;
 }
 
 .footer .footer-content {
@@ -247,6 +428,17 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #00b7f3;
+}
+
+#email input[type="email"]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
 .container2 {
