@@ -159,7 +159,7 @@ header a:hover{
   color:#ffffff;
 }
 .standpunten3{
-  background-image: url("../img/school1.jpg");
+  background-image: url("../img/navo1.jpg");
   background-size: 100% 100%;
   height: 80%;
   width: 90%;
@@ -182,7 +182,7 @@ header a:hover{
 }
 
 .standpunten6{
-  background-image: url("../img/navo1.jpg");
+  background-image: url("../img/school1.jpg");
   background-size: 100% 100%;
   height: 80%;
   width: 90%;
@@ -203,6 +203,132 @@ header a:hover{
   left: 4%;
   font-size: 1vw;
   margin: 0px 0px;
+}
+
+/* Mensen */
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  height: 600px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-left: 50px;
+  width: 80%;
+  min-height: 650px;
+  max-height: 650px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container1 {
+  padding: 0 16px;
+  width: 80%;
+}
+
+.container1::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  margin-left: 13px;
+  color: white;
+  background-color: #00c0ff;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #00b1eb;
+}
+
+.button2 {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  margin-top: 21px;
+  margin-left: 13px;
+  color: white;
+  background-color: #00c0ff;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button2:hover {
+  background-color: #00b1eb;
+}
+
+.button3 {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  margin-top: 42px;
+  margin-left: 13px;
+  color: white;
+  background-color: #00c0ff;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button3:hover {
+  background-color: #00b1eb;
+}
+
+.mensen-img {
+  margin-top: 27.5px;
+  margin-left: 27.5px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+p6 {
+  margin-top: 100px;
+}
+
+p7 {
+  margin-top: 15px;
 }
 
 /* background_showcase */
@@ -272,7 +398,7 @@ article#main-col1{
 }
 
 article#main-col2{
-  margin-left: 80px;
+  margin-left: 100px;
   margin-top: 70px;
   margin-bottom: 70px;
   padding-top:30px;
